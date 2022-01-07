@@ -71,7 +71,7 @@ function submitButton(event)
 	else 
 	{
 		addingAh1.innerHTML = 'Incorrect email and/or password';
-   		 }
+   	}
         
 	}
 }
