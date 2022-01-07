@@ -23,7 +23,6 @@ function rightButton()
 }
 
 
-
 // Hovering over Button
 function onHover() 
 {
@@ -42,8 +41,6 @@ window.onload = function()
 };
 
 
-  
-
 // Submit Button and Entering user, email, and pass
 function submitButton(event) 
 {
@@ -59,22 +56,22 @@ function submitButton(event)
 	// checking for valid email, user, and pass
 	for (var i = 0; i <= user.length; i++) 
 	{
-			if (parseFloat(user.length) && parseInt(pass) === 12345678)
-		{
+		// if the password matches 12345678
+		if (parseFloat(user.length) && parseInt(pass) === 12345678)
+	{
 
-			addingAh1.innerHTML = 'Your information is correct!';
-		} 
-		
-		else if(user.length == "")
-		{
-            addingAh1.innerHTML = 'Enter your username: ';
+		addingAh1.innerHTML = 'Your information is correct!';
+	} 
+	// if you don't enter a username
+	else if(user.length == "")
+	{
+          addingAh1.innerHTML = 'Enter your username: ';
 
-        }
-		
-		else 
-		{
-			addingAh1.innerHTML = 'Incorrect email and/or password';
-        }
+      }
+	else 
+	{
+		addingAh1.innerHTML = 'Incorrect email and/or password';
+      }
         
 	}
 }
