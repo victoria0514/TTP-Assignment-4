@@ -67,7 +67,7 @@ function submitButton(event)
 	{
           addingAh1.innerHTML = 'Enter your username: ';
 
-    		}
+    	}
 	else 
 	{
 		addingAh1.innerHTML = 'Incorrect email and/or password';
