@@ -1,29 +1,16 @@
-// Buttons
+let text = document.getElementById("buttonText");
+    function clickLeft(){
 
-// left button functions
-function leftButton() 
-{
-	let clickleftButton = doc.getElementById('container');
-	let leftButtonText = doc.createElement('section');
+            text.innerHTML = "Im right (left button)"
 
-	// what button will say when you click on it
-	leftButtonText.innerText = "I'm the right button";
-	clickleftButton.appendChild(leftButtonText);
-}
+    }
 
-// right button functions
-function rightButton() 
-{
-	let clickrightButton = doc.getElementById('container');
-	let rightButtonText = doc.createElement('section');
+    function clickRight(){
 
-	// what button will say when you click on it
-	rightButtonText.innerHTML = "No, you're lying. I'm the real right button!";
-	clickrightButton.appendChild(rightButtonText);
-}
+        text.innerHTML = "no Im right (right button)"
+    }
 
-
-// Hovering over Button
+ // Hovering over Button
 function onHover() 
 {
     let change = doc.createElement('section');
