@@ -18,15 +18,25 @@ h2 {
   font-size: 30px;
 }
 
+h3 {
+  color: black;
+  font-family: "Times New Roman", Times, sans-serif;
+  font-size: 20px;
+}
+
 p {
-  color: rgb(56, 58, 146);
-  font-size: 11px;
+  color: black;
+  font-size: 15px;
   line-height: 15px;
   text-shadow: 0 0 5px #999;
 }
 
 button {
   align-content: center;
+  background-color: rgb(216, 85, 135);
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
 }
 
 section {
@@ -38,4 +48,11 @@ section {
   left: -5px;
   width: 170px;
   cursor: pointer;
+}
+
+#hoverButton {
+  font-family: "Times New Roman", Times, sans-serif;
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
 }

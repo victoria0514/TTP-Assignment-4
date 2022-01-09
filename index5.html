@@ -7,37 +7,55 @@
 	
 </head>
 <body>
-    <!-- <img src="https://previews.123rf.com/images/djvstock/djvstock1508/djvstock150806855/44096519-web-developer-design-vector-illustration-eps-10-.jpg" class="logo"> -->
-	<h2> Left and Right Buttons</h2>
+    <img src="https://previews.123rf.com/images/djvstock/djvstock1508/djvstock150806855/44096519-web-developer-design-vector-illustration-eps-10-.jpg" class="logo">
+	
+	<h2>Who is the real right button?</h2>
 	
 	<div>
-        <button onClick="clickLeft()" id="button1"> Left Button</button>
-        <button onClick="clickRight()" id="button2"> Right Button</button>
+        <button onClick="clickLeft()" id="button1"> Button</button>
+        <button onClick="clickRight()" id="button2"> Button</button>
         </div>
 
         <div>
             <p id="buttonText">      </p>
         </div>
 
-	<!-- <section id="container">
+	<section id="container">
 	</section>
 
 	<h2>Listen to the text below!</h2>
+	<div>
+        <button onmouseover="onHover()" id="hoverButton">
+			Don't Hover Over Me !!
+        </button>
+    </div>
 
-	<section id=hover>Don't hover over me</section>
-	
-	<h2>Please fill out the 
-        information below.</h2>
-	<section id="q5">
-		<form>
-        Email: <input type="text" name="Email"><br>
-		Username: <input type="text" name="Username" id="input1"><br>
-		Password: <input type="text" name="Password" id="input2"><br>
-		<button id="b5"  value="Submit" onClick="submitButton(event)">Submit</button>
-		</form>
+	<h2>Please fill out the information below.</h2>
 
-	</section> -->
+	<form name="partThree" onsubmit="return final()" method="post">
+
+		<div class="select">
+            <label>Email: </label> <span id="error-email"></span>
+            <input type="text" name="email" class="form-control" placeholder="Enter your email">
+        </div>
+
+        <div class="select">
+            <label>Username: </label> <span id="error-username"></span>
+            <input type="text" name="username" class="form-control" placeholder="Enter your username">
+        </div>
+
+        <div class="select">
+            <label>Password: </label> <span id="error-password"></span>
+            <input type="text" name="password" class="form-control" placeholder="Enter your password">
+
+		<h3>We will not share your password with anyone.</h3>
+        </div>
+
+        <div class="select">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
 	<script src="script5.js"></script>
 </body>
-
 </html>
